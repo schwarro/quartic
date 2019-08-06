@@ -1,11 +1,59 @@
-body {
+* {
   font-family: 'Open Sans', sans-serif;
 }
 
-@media screen and (min-width: 1171px)
+/*Main container for the nav*/
+#container-fluid {
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 10px 5px rgba(182, 182, 182, 0.75);
+  /*Used to get the box shadow at bottom of nav*/
+  display: grid;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(5, 20%);
+  padding-bottom: 5%;
+ }
 
-@media screen and (min-width: 769px) and (max-width: 1170px)
+ .welcome {
+   grid-area: 2 / 2 / 3 / 5;
+ }
 
-@media screen and (max-width: 768px)
+ .welcome h1 {
+   font-weight: bold;
+ }
 
-@media screen and (max-width: 500px)
+ .welcome h5 {
+   color: rgba(182, 182, 182, 0.75);
+ }
+
+ .addNew {
+   grid-area: 2 / -4 / 5 / -2;
+ }
+
+ .addNew a {
+   width: 100%;
+   background-color: #3C3C3C !important;
+   padding: 10%;
+ }
+
+ .addNew a i {
+   padding-right: 5%;
+ }
+
+ .addNew a h5 {
+   display: block;
+   margin: 0;
+ }
+
+
+/* // Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... } */
