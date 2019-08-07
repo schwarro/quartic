@@ -1,5 +1,10 @@
+let kebab = document.getElementById("kebab");
+let bubble = document.getElementById('speechBubble');
 
-$(".kebab").click(function() {
-  window.location = $(this).find("a").attr("href");
-  return false;
-});
+kebab.onclick = function () {
+  if(bubble.style.display === 'none') {
+    bubble.style.display = 'block';
+  } else {
+    bubble.style.display = 'none';
+  }
+}
