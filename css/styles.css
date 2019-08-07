@@ -166,7 +166,7 @@
 
     /*speech-bubble*/
 
-    .speech-bubble {
+    .speechBubble {
     	position: relative;
     	background: #fff;
     	border-radius: .4em;
@@ -175,7 +175,7 @@
       width: 60%;
     }
 
-    .speech-bubble:after {
+    .speechBubble:after {
       content: '';
     	position: absolute;
     	top: 0;
@@ -189,11 +189,11 @@
     	margin-top: -20px;
     }
 
-    .speech-bubble h5 {
+    .speechBubble h5 {
       padding: 5px;
     }
 
-    .speech-bubble a {
+    .speechBubble a {
       color: #000;
       text-decoration: none;
     }
