@@ -171,7 +171,7 @@
     	background: #fff;
     	border-radius: .4em;
       margin-top: 25px;
-      margin-right: 25px;
+      margin-right: 23px;
       width: 60%;
     }
 
@@ -191,6 +191,11 @@
 
     .speech-bubble h5 {
       padding: 5px;
+    }
+
+    .speech-bubble a {
+      color: #000;
+      text-decoration: none;
     }
 
 
