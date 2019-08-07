@@ -1,53 +1,72 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <script src="https://kit.fontawesome.com/686a2a5107.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/styles.css">
-    <title>Quartic Dashboard</title>
-  </head>
-  <body>
-    <!--Main Nav Area  -->
-    <header>
-      <div id="container-fluid">
-        <!--Welcome text  -->
-        <div class="welcome">
-          <h1>Dashboard</h1>
-          <h5>Welcome to my dashboard</h5>
-        </div>
-        <!--Add New Button  -->
-        <div class="addNew">
-          <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true"><h5><i class="fas fa-plus-circle"></i>Add New</h5></a>
-        </div>
-      </div>
-    </header>
 
-    <!--Dashboard area  -->
-    <main>
+<head>
+  <meta charset="utf-8">
+  <script src="https://kit.fontawesome.com/686a2a5107.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Quartic Dashboard</title>
+</head>
+
+<body>
+  <!--Main Nav Area  -->
+  <header>
+    <div id="container-fluid">
+      <!--Welcome text  -->
+      <div class="welcome">
+        <h1>Dashboard</h1>
+        <h5>Welcome to my dashboard</h5>
+      </div>
+      <!--Add New Button  -->
+      <div class="addNew">
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+          <h5><i class="fas fa-plus-circle"></i>Add New</h5>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!--Dashboard area  -->
+  <main>
+    <div class="wrapper">
       <div class="room">
-        <div class="circle"></div>
-        <div class="menu"></div>
-        <div class="homeSection">
-          <h2>My Home</h2>
-          <h3>Living Room</h3>
+        <div class="roomHeader">
+          <div class="circles">
+            <div class="circle"></div>
+            <div class="kebab">
+              <nav>
+                <i class="fas fa-ellipsis-v fa-3x kebab"></i>
+              </nav>
+            </div>
+          </div>
+          <div class="text">
+            <h2>My Home</h2>
+            <h3>Living Room</h3>
+          </div>
         </div>
-        <div class="deviceSection">
-          <h2>1</h2>
-          <h3>Device</h3>
+        <div class="deviceSection counter">
+          <div class="counterText">
+            <h2>1</h2>
+            <h4>Device</h4>
+          </div>
         </div>
-        <div class="plugins">
-          <h2>2</h2>
-          <h3>Plugins</h3>
+        <div class="plugins counter">
+          <div class="counterText">
+            <h2>2</h2>
+            <h4>Plugins</h4>
+          </div>
         </div>
         <div class="date">
-          <h3>Added on Tue, Jun 5, 2018.</h3>
+          <h4>Added on Tue, Jun 5, 2018.</h4>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
