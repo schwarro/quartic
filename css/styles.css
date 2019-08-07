@@ -101,11 +101,9 @@
       justify-content: center;
       align-items: center;
       border-radius: 50%;
-      background-color: rgba(80, 80, 80, 0.5);
-    }
-
-    #kebab a {
       color: #fff;
+      cursor: pointer;
+      background-color: rgba(80, 80, 80, 0.5);
     }
 
     /*styles the green circle in the corner  */
@@ -164,7 +162,7 @@
       margin-left: 20px;
     }
 
-    /*speech-bubble*/
+    /*styling the speech-bubble*/
 
     #speechBubble {
     	position: relative;
@@ -199,15 +197,11 @@
       text-decoration: none;
     }
 
+    /* img {
+      position: absolute;
+      clip: rect(0px, 830px, 275px, 525px);
+    } */
 
-/* // Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
 
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... } */
+/* Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) { ... } */
