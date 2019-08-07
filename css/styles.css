@@ -171,8 +171,8 @@
     	background: #fff;
     	border-radius: .4em;
       margin-top: 25px;
-      margin-right: 50px;
-      width: 50%;
+      margin-right: 25px;
+      width: 60%;
     }
 
     .speech-bubble:after {
@@ -182,12 +182,11 @@
     	left: 50%;
     	width: 0;
     	height: 0;
-    	border: 24px solid transparent;
+    	border: 20px solid transparent;
     	border-bottom-color: #fff;
     	border-top: 0;
-    	border-right: 0;
     	margin-left: 30px;
-    	margin-top: -24px;
+    	margin-top: -20px;
     }
 
     .speech-bubble h5 {
