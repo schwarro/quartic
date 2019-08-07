@@ -1,4 +1,4 @@
-let kebab = document.getElementById("kebab");
+let kebab = document.getElementById('kebab');
 let bubble = document.getElementById('speechBubble');
 
 kebab.onclick = function () {
