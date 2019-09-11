@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <script src="https://kit.fontawesome.com/686a2a5107.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Quartic Dashboard</title>
+</head>
+
+<body>
+  <!--Main Nav Area  -->
+  <header>
+    <div id="container-fluid">
+      <!--Welcome text  -->
+      <div class="welcome">
+        <h1>Dashboard</h1>
+        <h5>Welcome to my dashboard</h5>
+      </div>
+      <!--Add New Button  -->
+      <div class="addNew">
+        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">
+          <h5><i class="fas fa-plus-circle"></i>Add New</h5>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!--Dashboard area  -->
+  <main>
+    <div class="wrapper">
+      <div class="room">
+        <div class="roomHeader">
+          <div class="text">
+            <h2>My Home</h2>
+            <h3>Living Room</h3>
+          </div>
+        </div>
+
+        <!--deals with the left side of the div with the circles and image  -->
+        <div class="circles">
+          <div class="circle"></div>
+          <div id="kebab">
+            <i class="fas fa-ellipsis-v fa-2x"></i>
+          </div>
+          <div id="speechBubble">
+            <a href="#"><h5>Edit</h5></a>
+            <a href="#"><h5>Delete</h5></a>
+          </div>
+          <img class="image" src="img/mainAlt.png" alt="computer processor">
+        </div>
+
+        <!--deals with the info showing below the room identified  -->
+        <div class="deviceSection counter">
+          <div class="counterText">
+            <h2>1</h2>
+            <h4>Device</h4>
+          </div>
+        </div>
+        <div class="plugins counter">
+          <div class="counterText">
+            <h2>2</h2>
+            <h4>Plugins</h4>
+          </div>
+        </div>
+        <div class="date">
+          <h4>Added on Tue, Jun 5, 2018.</h4>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
